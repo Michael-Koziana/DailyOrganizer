@@ -10,7 +10,6 @@
         android:id="@+id/LinearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom|center"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
@@ -51,12 +50,6 @@
             android:text="Study for Physics Test!" />
 
         <CheckBox
-            android:id="@+id/Event3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Text mom back about party" />
-
-        <CheckBox
             android:id="@+id/Event4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,22 +73,11 @@
             android:layout_height="wrap_content"
             android:text="Text back guy about the TV" />
 
-        <LinearLayout
+        <CheckBox
+            android:id="@+id/Event3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="bottom"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/calendar"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
-                android:onClick="Convert"
-                android:text="Update with Google Calendar"
-                android:textStyle="bold" />
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:text="Text mom back about party" />
 
     </LinearLayout>
 
